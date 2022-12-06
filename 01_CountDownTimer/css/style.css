@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/image.jpg);
+    color: rgb(232, 241, 230) ;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0px 2px 5px rgb(245, 5, 5);
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+p{
+    font-size: 16px;
+}
+.newyear{
+    font-family:Inspiration ,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   
+}
+.box h2{
+    font-size: 20px;
+}
+.box small{
+    font-size: 12px;
+}
+@media (min-width:576px) {
+    .newyear{
+        font-size: 80px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box{
+        width: 70px;
+        height: 70px;
+        text-align: center;
+    }
+    .box small{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:768px) {
+    .newyear{
+        font-size: 100px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box h2{
+        font-size: 40px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    .box small{
+        font-size: 20px;
+    }
+}
